@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Whack-a-Mole</h1>
+        <div class="game-info">
+            <span>Score: <span id="score">0</span></span>
+            <span>Time: <span id="time">30</span> seconds</span>
+        </div>
+        <div class="game-board" id="game-board">
+            <!-- Holes for the moles -->
+        </div>
+        <button id="restart-btn" class="restart-btn">Restart Game</button>
+    </div>
+
+    <audio id="whack-sound" src="whack-sound.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
